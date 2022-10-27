@@ -1,0 +1,21 @@
+class botilleria
+{
+    ##atributos##
+    brand=''#marca
+    millilitre=''#cantidad en caso de bebida ML
+    grams=''#cantidad en caso de alimento gr
+    price=''#precio 
+    quantity=''#cantidad de productos
+    sales=''#ventas del producto
+    ##fin seccion atributos##
+    
+    ##metodos(funcion)##
+    change_price(newprice) #cambia precio
+    change_amount(newquantity) #cambia cantidad de productos
+    changes_sales(newsales) #cambia la cantidad total de ventas    
+    ##fin seccion metodos##
+       
+}
+
+    
+    

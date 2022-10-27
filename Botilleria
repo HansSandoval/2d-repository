@@ -1,21 +1,26 @@
-class botilleria
+class products
 {
     ##atributos##
-    brand=''#marca
-    millilitre=''#cantidad en caso de bebida ML
-    grams=''#cantidad en caso de alimento gr
-    price=''#precio 
-    quantity=''#cantidad de productos
-    sales=''#ventas del producto
+    brand=''      #marca
+    type=''       #comestible fumable bebestible u otros
+    barcode=0     #codigo de barras 
+    volume=0      #cantidad ML o gr
+    price=0       #precio (en clp)
+    quantity=0    #cantidad de productos
+    sales=0       #ventas del producto
+    expirarationdate=0  #fecha de vencimiento
+    
     ##fin seccion atributos##
     
     ##metodos(funcion)##
     change_price(newprice) #cambia precio
     change_amount(newquantity) #cambia cantidad de productos
-    changes_sales(newsales) #cambia la cantidad total de ventas    
+    changes_sales(newsales) #cambia la cantidad total de ventas  
+    
     ##fin seccion metodos##
        
 }
+
 
     
     

@@ -1,4 +1,4 @@
-class products
+class Products
 {
     ##atributos##
     brand=''      #marca
